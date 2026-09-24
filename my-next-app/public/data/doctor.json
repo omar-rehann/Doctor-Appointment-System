@@ -1,0 +1,378 @@
+[{
+        "id": 1,
+        "name": "Dr.Sarah_Mitchell",
+        "category": "Dentistry",
+        "image": "https://images.unsplash.com/photo-1666214278797-b2cc1b12be76?auto=format&fit=crop&w=800&q=80",
+        "description": "Specialized in cosmetic dentistry, dental implants, and smile design using the latest digital technologies.",
+        "yearsOfExperience": 12,
+        "phone": "+1 (555) 234-5678",
+        "graduation": {
+            "college": "Faculty of Dentistry, Harvard University",
+            "year": 2012
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Dr.James_Wilson",
+        "category": "Cardiology",
+        "image": "https://images.unsplash.com/photo-1645066928295-2506defde470?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Expert in cardiovascular health, heart failure management, and advanced interventional cardiology.",
+        "yearsOfExperience": 18,
+        "phone": "+1 (555) 345-6789",
+        "graduation": {
+            "college": "Johns Hopkins University School of Medicine",
+            "year": 2006
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Dr.Elena_Rostova",
+        "category": "Dermatology",
+        "image": "https://images.unsplash.com/photo-1758691462651-611d730c5272?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Consultant in medical dermatology, laser treatments, and advanced anti-aging skin care remedies.",
+        "yearsOfExperience": 9,
+        "phone": "+1 (555) 456-7890",
+        "graduation": {
+            "college": "Stanford University School of Medicine",
+            "year": 2015
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Dr.Michael_Chen",
+        "category": "Orthopedics",
+        "image": "https://images.unsplash.com/photo-1758691462493-120a069304e6?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Specialist in joint replacements, sports injury treatments, and minimally invasive bone surgeries.",
+        "yearsOfExperience": 15,
+        "phone": "+1 (555) 567-8901",
+        "graduation": {
+            "college": "UCLA David Geffen School of Medicine",
+            "year": 2009
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Dr.Emily_Taylor",
+        "category": "Pediatrics",
+        "image": "https://images.unsplash.com/photo-1758691463084-17ed846d4a50?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Compassionate pediatrician focusing on newborn health, child development, and preventive care.",
+        "yearsOfExperience": 10,
+        "phone": "+1 (555) 678-9012",
+        "graduation": {
+            "college": "Yale School of Medicine",
+            "year": 2014
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Dr.Amanda_Rodriguez",
+        "category": "Obstetrics & Gynecology",
+        "image": "https://images.unsplash.com/photo-1758691463000-08b98131daf3?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Providing comprehensive women health services, prenatal monitoring, and high-risk pregnancy care.",
+        "yearsOfExperience": 14,
+        "phone": "+1 (555) 789-0123",
+        "graduation": {
+            "college": "Columbia University Vagelos College",
+            "year": 2010
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Dr.Robert_Vance",
+        "category": "Ophthalmology",
+        "image": "https://images.unsplash.com/photo-1758691462119-792279713969?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Expert eye surgeon specializing in Lasik vision correction, cataract removals, and corneal diseases.",
+        "yearsOfExperience": 16,
+        "phone": "+1 (555) 890-1234",
+        "graduation": {
+            "college": "University of Pennsylvania Perelman School",
+            "year": 2008
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Dr.David_Miller",
+        "category": "Internal Medicine",
+        "image": "https://images.unsplash.com/photo-1758691461957-474a7686e388?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Dedicated to managing chronic health conditions, diagnostic evaluations, and holistic adult care.",
+        "yearsOfExperience": 20,
+        "phone": "+1 (555) 901-2345",
+        "graduation": {
+            "college": "Duke University School of Medicine",
+            "year": 2004
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Dr.Lucas_Scott",
+        "category": "Dentistry",
+        "image": "https://images.unsplash.com/photo-1659353888323-1f5c85ea3952?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Orthodontic specialist dedicated to teeth alignment, invisible braces, and pediatric dental care.",
+        "yearsOfExperience": 8,
+        "phone": "+1 (555) 012-3456",
+        "graduation": {
+            "college": "NYU College of Dentistry",
+            "year": 2016
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Dr.Sophia_Patel",
+        "category": "Cardiology",
+        "image": "https://images.unsplash.com/photo-1758691461916-dc7894eb8f94?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Preventive cardiologist focused on hypertension control, cholesterol management, and lifestyle medicine.",
+        "yearsOfExperience": 11,
+        "phone": "+1 (555) 123-9876",
+        "graduation": {
+            "college": "Northwestern University Feinberg School",
+            "year": 2013
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 11,
+        "name": "Dr.Alexander_Wright",
+        "category": "Dermatology",
+        "image": "https://images.unsplash.com/photo-1666887360364-4919ae373fcb?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Specialized in surgical dermatology, acne management, and diagnosis of complex skin disorders.",
+        "yearsOfExperience": 13,
+        "phone": "+1 (555) 234-8765",
+        "graduation": {
+            "college": "University of Michigan Medical School",
+            "year": 2011
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 12,
+        "name": "Dr.Grace_Kim",
+        "category": "Orthopedics",
+        "image": "https://images.unsplash.com/photo-1666886573583-9839aafe43cf?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Orthopedic trauma surgeon with expertise in spinal care and reconstructive bone surgery.",
+        "yearsOfExperience": 7,
+        "phone": "+1 (555) 345-7890",
+        "graduation": {
+            "college": "Cornell University Weill Cornell Medicine",
+            "year": 2017
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 13,
+        "name": "Dr.Thomas_Brown",
+        "category": "Pediatrics",
+        "image": "https://images.unsplash.com/photo-1758691463384-771db2f192b3?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Experienced pediatric care provider focusing on adolescent health, nutrition, and immunology.",
+        "yearsOfExperience": 17,
+        "phone": "+1 (555) 456-6543",
+        "graduation": {
+            "college": "Washington University School of Medicine",
+            "year": 2007
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 14,
+        "name": "Dr.Olivia_Martinez",
+        "category": "Obstetrics & Gynecology",
+        "image": "https://images.unsplash.com/photo-1581056771392-8a90ddb76831?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Specialist in laparoscopic surgery, reproductive health care, and minimally invasive gynecologic procedures.",
+        "yearsOfExperience": 9,
+        "phone": "+1 (555) 567-5432",
+        "graduation": {
+            "college": "Baylor College of Medicine",
+            "year": 2015
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 15,
+        "name": "Dr.Daniel_Harris",
+        "category": "Ophthalmology",
+        "image": "https://images.unsplash.com/photo-1758691462615-beafbf50bf3c?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Consultant in retina care, glaucoma treatment, and comprehensive optical surgeries.",
+        "yearsOfExperience": 19,
+        "phone": "+1 (555) 678-4321",
+        "graduation": {
+            "college": "Vanderbilt University School of Medicine",
+            "year": 2005
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 16,
+        "name": "Dr.Hannah_White",
+        "category": "Internal Medicine",
+        "image": "https://images.unsplash.com/photo-1581595220975-119360b1c63f?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Internist prioritizing diagnostic precision, diabetes care, and geriatric medicine.",
+        "yearsOfExperience": 6,
+        "phone": "+1 (555) 789-3210",
+        "graduation": {
+            "college": "Emory University School of Medicine",
+            "year": 2018
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 17,
+        "name": "Dr.Benjamin_Adams",
+        "category": "Dentistry",
+        "image": "https://images.unsplash.com/photo-1673865641073-4479f93a7776?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Expert in periodontics, root canal treatments, and preventative dental hygiene.",
+        "yearsOfExperience": 14,
+        "phone": "+1 (555) 890-2109",
+        "graduation": {
+            "college": "UNC School of Dentistry",
+            "year": 2010
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 18,
+        "name": "Dr.Victoria_Clark",
+        "category": "Cardiology",
+        "image": "https://images.unsplash.com/photo-1758205307912-5896ff0c65ae?auto=format&fit=crop&w=800&q=80",
+
+        "description": "Echocardiography specialist with a focus on non-invasive cardiac imaging and rehabilitation.",
+        "yearsOfExperience": 8,
+        "phone": "+1 (555) 901-1098",
+        "graduation": {
+            "college": "University of Pittsburgh School of Medicine",
+            "year": 2016
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 19,
+        "name": "Dr.Christopher_Lee",
+        "category": "Orthopedics",
+        "image": "https://images.unsplash.com/photo-1667133295308-9ef24f71952e?auto=format&fit=crop&w=800&q=80",
+        "description": "Specialized in hand surgery, physical rehabilitation, and degenerative bone therapy.",
+        "yearsOfExperience": 11,
+        "phone": "+1 (555) 012-0987",
+        "graduation": {
+            "college": "Georgetown University School of Medicine",
+            "year": 2013
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    },
+    {
+        "id": 20,
+        "name": "Dr.Chloe_Bennett",
+        "category": "Dermatology",
+        "image": "https://images.unsplash.com/photo-1674049406176-021807a2802e?auto=format&fit=crop&w=800&q=80",
+        "description": "Specializing in pediatric dermatology, skin allergy testing, and aesthetic skin care.",
+        "yearsOfExperience": 5,
+        "phone": "+1 (555) 123-0123",
+        "graduation": {
+            "college": "Boston University School of Medicine",
+            "year": 2019
+        },
+        "socialMedia": {
+            "facebook": "https://facebook.com",
+            "twitter": "https://twitter.com",
+            "linkedin": "https://linkedin.com"
+        }
+    }
+]

@@ -1,0 +1,33 @@
+[{
+        "title": "Dentistry",
+        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&q=70"
+    },
+    {
+        "title": "Cardiology",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=70"
+    },
+    {
+        "title": "Dermatology",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&q=70"
+    },
+    {
+        "title": "Orthopedics",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&q=70"
+    },
+    {
+        "title": "Pediatrics",
+        "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&q=70"
+    },
+    {
+        "title": "Gynecology",
+        "image": "https://images.unsplash.com/photo-1584515933487-779824d29309?w=400&q=70"
+    },
+    {
+        "title": "Ophthalmology",
+        "image": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=400&q=70"
+    },
+    {
+        "title": "Internal_Medicine",
+        "image": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=400&q=70"
+    }
+]

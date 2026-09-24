@@ -1,0 +1,49 @@
+[{
+        "id": 1,
+        "title": "General Checkup",
+        "image": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=400&q=70",
+        "description": "Comprehensive health examination"
+    },
+    {
+        "id": 2,
+        "title": "Dental Care",
+        "image": "https://images.unsplash.com/photo-1606811841689-23dfddce3e95?w=400&q=70",
+        "description": "Professional dental treatments"
+    },
+    {
+        "id": 3,
+        "title": "Cardiology",
+        "image": "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?w=400&q=70",
+        "description": "Heart and cardiovascular care"
+    },
+    {
+        "id": 4,
+        "title": "Dermatology",
+        "image": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=400&q=70",
+        "description": "Skin care and treatments"
+    },
+    {
+        "id": 5,
+        "title": "Pediatrics",
+        "image": "https://images.unsplash.com/photo-1584820927498-cfe5211fd8bf?w=400&q=70",
+        "description": "Specialized care for children"
+    },
+    {
+        "id": 6,
+        "title": "Laboratory Tests",
+        "image": "https://images.unsplash.com/photo-1582719471384-894fbb16e074?w=400&q=70",
+        "description": "Accurate lab analysis"
+    },
+    {
+        "id": 7,
+        "title": "Radiology",
+        "image": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=400&q=70",
+        "description": "X-ray and imaging services"
+    },
+    {
+        "id": 8,
+        "title": "Emergency Care",
+        "image": "https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&q=70",
+        "description": "24/7 emergency medical services"
+    }
+]
