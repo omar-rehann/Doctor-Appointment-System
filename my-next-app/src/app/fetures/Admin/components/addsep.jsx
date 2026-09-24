@@ -17,7 +17,7 @@ function Addspe(){
                 formdata.append("image", alldata.image);
             
               let senddata = await fetch(
-            "http://localhost:4000/admin/opreation/addSpecialties",
+            `${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/addSpecialties`,
             {
                 method: "POST",
                 body: formdata

@@ -29,7 +29,7 @@ function Choosedoctor() {
   useEffect(() => {
     async function getdoctor() {
       try {
-        const data = await fetch("http://localhost:4000/admin/opreation/showdoctor");
+        const data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showdoctor`);
         const result = await data.json();
         setdoctor(result.data.filter((e) => e._id === id));
         setwithout(result.data.filter((e) => e._id !== id));
@@ -43,7 +43,7 @@ function Choosedoctor() {
   // ---------- add appointment ----------
   async function addapointment(item) {
     try {
-      const res = await fetch("http://localhost:4000/admin/opreation/addappointment", {
+      const res = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/addappointment`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ doctorId: item._id, name: item.name, day, time, note }),

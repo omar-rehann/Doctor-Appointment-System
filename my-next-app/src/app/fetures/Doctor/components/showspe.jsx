@@ -10,7 +10,7 @@ function Showspe(){
           const [allSpecialties, setall] = useState([]);
           useEffect(() => {
             async function getSpecialties() {
-              const result = await fetch("http://localhost:4000/admin/opreation/showSpecialties");
+              const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showSpecialties`);
               const final = await result.json();
               setall(final.data);
             }

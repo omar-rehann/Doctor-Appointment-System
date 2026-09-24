@@ -11,7 +11,7 @@ function Showdoctor() {
   const [alldocotr, setall] = useState([]);
   useEffect(() => {
     async function getdoctor() {
-      const result = await fetch("http://localhost:4000/admin/opreation/showdoctor");
+      const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showdoctor`);
       const final = await result.json();
       setall(final.data);
     }

@@ -10,7 +10,7 @@ function Allappointemt(){
   const [Allappointemt,setappointments]=useState([]);
   useEffect(()=>{
    async function getappointment(){
-    let data=await fetch("http://localhost:4000/admin/opreation/showappointment");
+    let data=await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showappointment`);
     let result=await data.json();
     setappointments(result.data);
     }
@@ -20,7 +20,7 @@ function Allappointemt(){
    const deleteitem = async (id) => {
      try {
        const response = await fetch(
-         `http://localhost:4000/admin/opreation/deleteappointment/${id}`,
+         `${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/deleteappointment/${id}`,
          { method: "DELETE" }
        );
        let data = await response.json();

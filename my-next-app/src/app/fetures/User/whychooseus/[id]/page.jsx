@@ -12,12 +12,12 @@ const params = useParams();
     useEffect(()=>{
 
         async function getspecialties(){
-            let data = await fetch("http://localhost:4000/admin/opreation/showSpecialties");
+            let data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showSpecialties`);
             let result=await data.json();
             setspecialties(result.data)
         }
         async function getdoctor() {
-              let data = await fetch("http://localhost:4000/admin/opreation/showdoctor");
+              let data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showdoctor`);
             let result=await data.json();
             setdoctor(result.data.filter((e)=>e.category===params.id));
         }      

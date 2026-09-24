@@ -12,7 +12,7 @@ function  Showser(){
       const [allservicce, setall] = useState([]);
       useEffect(() => {
         async function getservice() {
-          const result = await fetch("http://localhost:4000/admin/opreation/showservice");
+          const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showservice`);
           const final = await result.json();
           setall(final.data);
         }

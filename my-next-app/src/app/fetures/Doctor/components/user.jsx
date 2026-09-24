@@ -5,7 +5,7 @@ function USer(){
     const [alluser,setuser]=useState([]);
     useEffect(()=>{
        async function getuser(){
-        let data = await fetch( "http://localhost:4000/user/controller/showuser");
+        let data = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/user/controller/showuser`);
         console.log("data",data)
         let result =await data.json();
         setuser(result.data);

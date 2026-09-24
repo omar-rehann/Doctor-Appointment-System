@@ -20,7 +20,7 @@ function Addservices(){
             formdata.append("image", alldata.image);
         
           let senddata = await fetch(
-        "http://localhost:4000/admin/opreation/addservice",
+        `${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/addservice`,
         {
             method: "POST",
             body: formdata

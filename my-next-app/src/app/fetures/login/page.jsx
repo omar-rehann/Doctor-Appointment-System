@@ -15,7 +15,7 @@ function LoginPage() {
   }
   useEffect(()=>{
 async function getdoctor() {
-      const result = await fetch("http://localhost:4000/admin/opreation/showdoctor");
+      const result = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/showdoctor`);
       const final = await result.json();
       setall(final.data);
     }
@@ -24,7 +24,7 @@ async function getdoctor() {
 const Loginaction = async () => {
   try {
     const response = await fetch(
-      "http://localhost:4000/user/controller/login",
+      `${process.env.NEXT_PUBLIC_API_URL}/user/controller/login`,
       {
         method: "POST",
         headers: {

@@ -41,7 +41,7 @@ formdata.append("image", alldata.image);
         formdata.append("specialty",alldata.specialty);
         formdata.append("degree",alldata.degree);
       let senddata = await fetch(
-    "http://localhost:4000/admin/opreation/adddoctor",
+    `${process.env.NEXT_PUBLIC_API_URL}/admin/opreation/adddoctor`,
     {
         method: "POST",
         body: formdata

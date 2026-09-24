@@ -18,7 +18,7 @@ function RegsiterPage() {
 const regsiteraction = async () => {
   try {
     const response = await fetch(
-      "http://localhost:4000/user/controller/register",
+      `${process.env.NEXT_PUBLIC_API_URL}/user/controller/register`,
       {
         method: "POST",
         headers: {
