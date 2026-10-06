@@ -10,6 +10,7 @@ The User Platform allows patients/users to create accounts, discover doctors and
 
 Users can interact with the healthcare platform without accessing the Admin or Doctor dashboards.
 
+
 The main features include:
 
 * Registration
