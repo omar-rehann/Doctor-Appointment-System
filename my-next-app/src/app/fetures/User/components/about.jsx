@@ -18,7 +18,7 @@ function About() {
             About Us
           </span>
 
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight text-slate-900 mb-6">
+          <h2 className=" text-4xl md:text-5xl leading-tight text-slate-900 mb-6">
             Medical care
             <br />
             you and your family can trust.
@@ -46,7 +46,7 @@ function About() {
           <div className="grid grid-cols-3 gap-6 mt-12 pt-8 border-t border-slate-200">
             {stats.map((stat, index) => (
               <div key={index}>
-                <p className="font-serif text-3xl text-blue-600 mb-1">
+                <p className=" text-3xl text-blue-600 mb-1">
                   {stat.value}
                 </p>
                 <p className="text-slate-500 text-xs leading-5">

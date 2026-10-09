@@ -18,7 +18,7 @@ function About() {
             About Us
           </span>
 
-          <h2 className="font-serif text-4xl md:text-5xl leading-tight text-slate-900 mb-6">
+          <h2 className=" text-4xl md:text-5xl leading-tight text-slate-900 mb-6">
             Medical care
             <br />
             you and your family can trust.
