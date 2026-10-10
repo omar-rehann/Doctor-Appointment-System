@@ -1,523 +1,248 @@
-# Doctor Appointment & Healthcare Management System
+<!-- Animated Header -->
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:06B6D4&height=200&section=header&text=Omar%20Rehan&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" />
+</p>
 
-A full-stack Doctor Appointment and Healthcare Management System built to manage doctors, patients, medical services, specialties, and appointments through three separate platforms:
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=06B6D4&center=true&vCenter=true&width=500&lines=Full-Stack+Developer;React.js+%7C+Next.js+%7C+Node.js;Building+Modern+Web+Applications;Turning+Ideas+Into+Working+Products" alt="Typing animation" />
+</p>
 
-* Admin Dashboard
-* Doctor Dashboard
-* User Platform
+<p align="center">
+  <a href="https://github.com/omar-rehann"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/omar-rehann"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://omar-rehann.github.io/Omar-Rehann/"><img src="https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:omarrehan724@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-The system provides role-based access, authentication, doctor management, medical services, specialties, appointments, and user management.
-
----
-
-## Project Overview
-
-The project is designed as a complete healthcare appointment platform where:
-
-* **Admins** manage doctors, services, specialties, users, and appointments.
-* **Doctors** have their own accounts and can manage their information and appointments.
-* **Users** can create accounts, browse doctors and specialties, view services, and book appointments.
-
-The application follows a full-stack architecture with a separate frontend and backend.
-
----
-
-## System Architecture
-
-```text
-                    Doctor Appointment System
-                              │
-              ┌───────────────┼───────────────┐
-              │               │               │
-           Admin            Doctor           User
-              │               │               │
-              └───────────────┼───────────────┘
-                              │
-                         REST API
-                              │
-                         Node.js
-                         Express.js
-                              │
-                    ┌─────────┴─────────┐
-                    │                   │
-                 MongoDB             ImageKit
-```
+<p align="center">
+  <a href="#-about-me">About</a> •
+  <a href="#%EF%B8%8F-tech-stack">Tech Stack</a> •
+  <a href="#-featured-projects">Projects</a> •
+  <a href="#-experience">Experience</a> •
+  <a href="#-education--certificates">Education</a> •
+  <a href="#-github-statistics">Stats</a>
+</p>
 
 ---
 
-# Main Features
+## 👋 About Me
 
-## Authentication & Authorization
+I'm **Omar Rehan**, a Computer Science graduate from Port Said University and a Full-Stack Developer specializing in modern web applications.
 
-* User registration
-* User login
-* Admin authentication
-* Doctor authentication
-* JWT authentication
-* Role-based authorization
-* Protected routes
-* Logout functionality
+I build responsive, scalable web solutions, combining intuitive user interfaces with backend APIs, database integration, authentication, and deployment.
 
----
-
-# Admin Features
-
-The Admin Dashboard allows administrators to manage the entire healthcare platform.
-
-### Doctor Management
-
-Admin can:
-
-* Add doctors
-* View doctors
-* Edit doctor information
-* Delete doctors
-* Upload doctor profile images
-* Assign specialties
-* Add experience
-* Add degree/college
-* Add address
-* Manage doctor credentials
-
-### Services Management
-
-Admin can:
-
-* Add medical services
-* View services
-* Edit services
-* Delete services
-
-### Specialties Management
-
-Admin can manage medical specialties such as:
-
-* Dentistry
-* Internal Medicine
-* ENT
-* Cardiology
-* Pediatrics
-* Dermatology
-* And other medical specialties
-
-Admin can:
-
-* Add specialties
-* View specialties
-* Edit specialties
-* Delete specialties
-
-### User Management
-
-Admin can:
-
-* View registered users
-* Manage user accounts
-* Review users associated with appointments
-
-### Appointment Management
-
-Admin can:
-
-* View appointments
-* Review appointment information
-* Manage appointment records
+- 🚀 Built full-stack projects: Online Exam Platform, Doctor Appointment System, Restaurant Ordering Platform, and Car Marketplace.
+- ⚛️ Experienced in React.js, Next.js, Node.js, Express.js, and MongoDB.
+- 🐘 Exploring PostgreSQL and modern database technologies.
+- 🎓 Previously taught React.js and Next.js to 100+ students.
+- 💼 Open to Full-Stack, Front-End, and React.js Developer opportunities.
 
 ---
 
-# Doctor Features
+## 🛠️ Tech Stack
 
-Doctors have their own dashboard and authentication system.
-
-Doctors can:
-
-* Login to their account
-* View their profile
-* View other doctors
-* View medical specialties
-* View available services
-* View appointments
-* View daily appointments
-* Manage available information according to their permissions
-* Logout
-
----
-
-# User Features
-
-Users can create their own accounts and use the healthcare platform.
-
-Users can:
-
-* Create an account
-* Login
-* Logout
-* View doctors
-* View doctor information
-* View medical specialties
-* View medical services
-* Book appointments
-* View appointments
-* Manage available appointment actions
-* Access the Contact page
-
----
-
-# CRUD Operations
-
-The system implements complete CRUD operations.
-
-```text
-Create
-Read
-Update
-Delete
-```
-
-CRUD operations are used for:
-
-* Doctors
-* Services
-* Specialties
-* Users
-* Appointments
+<table align="center">
+  <tr>
+    <td align="center"><b>Frontend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,bootstrap" alt="Frontend" />
+      <br/><sub>React Hooks • Redux Toolkit • React Router • shadcn/ui • HyperUI • Responsive Design</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Backend</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=nodejs,express" alt="Backend" />
+      <br/><sub>REST APIs • Strapi CMS • Server Actions • Route Handlers • CRUD</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Databases</b></td>
+    <td>
+      <img src="https://skillicons.dev/icons?i=mongodb,postgres,supabase" alt="Databases" />
+      <br/><sub>Mongoose • Neon • Drizzle ORM • Database Design</sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Auth & Cloud</b></td>
+    <td>
+      <img src="https://img.shields.io/badge/Clerk-6C47FF?style=for-the-badge&logo=clerk&logoColor=white" alt="Clerk" />
+      <img src="https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT" />
+      <img src="https://img.shields.io/badge/Cloudinary-3448C5?style=for-the-badge&logo=cloudinary&logoColor=white" alt="Cloudinary" />
+      <img src="https://img.shields.io/badge/ImageKit-7B3FE4?style=for-the-badge&logoColor=white" alt="ImageKit" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>Tools</b></td>
+    <td><img src="https://skillicons.dev/icons?i=git,github,vercel,vscode" alt="Tools" /></td>
+  </tr>
+</table>
 
 ---
 
-# Appointment System
+## 🚀 Featured Projects
 
-Users can select a doctor and book an appointment.
+### 📝 Online Exam Management Platform
 
-The appointment system allows users to:
+Full-stack examination platform with dedicated dashboards for administrators, instructors, and students.
 
-1. Browse doctors
-2. View doctor information
-3. Select a doctor
-4. Book an appointment
-5. View their appointments
+- Five question types and manual essay grading
+- Exam scheduling and result visibility controls
+- Bulk Excel import/export for account management
+- Trash and restore for exams
+- Role-based access and dedicated dashboards
 
-Doctors can:
-
-* View their appointments
-* Check daily appointments
-* Follow their booking records
-
-Admins can:
-
-* View and manage appointment records
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,postgres,tailwind" alt="Exam stack" /> + Neon, Clerk, shadcn/ui
 
 ---
 
-# Technology Stack
+### 🚗 Car Marketplace
 
-## Frontend
+Vehicle marketplace with dynamic listings and administrative management.
 
-* React.js
-* Next.js
-* Tailwind CSS
-* React Bootstrap
-* SweetAlert
-* Font Awesome
+- Search and filtering across listings
+- Detailed vehicle pages and category browsing
+- Admin dashboard for managing listings
+- Authentication and cloud image management
 
-## Backend
+<img src="https://skillicons.dev/icons?i=nextjs,react,ts,postgres,tailwind" alt="Car stack" /> + Drizzle ORM, Clerk, Cloudinary, shadcn/ui
 
-* Node.js
-* Express.js
-* REST APIs
-* JWT
-
-## Database
-
-* MongoDB
-* Mongoose
-
-## External Services
-
-* ImageKit
+<a href="https://car-marketplace-delta-smoky.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Project-0891B2?style=for-the-badge&logo=vercel&logoColor=white" alt="Car Marketplace Demo" /></a>
 
 ---
 
-# Authentication
+### 🩺 Doctor Appointment Management System
 
-Authentication is implemented using JSON Web Tokens (JWT).
+Healthcare booking platform connecting patients with doctors and administrators.
 
-The authentication flow is:
+- Browse specialties and doctor profiles
+- Book, cancel, and manage appointments
+- Authentication and responsive interfaces
+- Admin management of doctors, services, articles, specialties, and appointments
 
-```text
-User Login
-    ↓
-Backend validates credentials
-    ↓
-JWT Token Generated
-    ↓
-Token sent to client
-    ↓
-Client uses token for protected requests
-    ↓
-Backend verifies token
-    ↓
-Access Granted / Denied
-```
+<img src="https://skillicons.dev/icons?i=nextjs,react,tailwind" alt="Doctor stack" /> + Strapi CMS, Clerk, shadcn/ui
+
+<a href="https://doctor-appointment-system-p1zy.vercel.app/"><img src="https://img.shields.io/badge/Live_Demo-Visit_Project-0891B2?style=for-the-badge&logo=vercel&logoColor=white" alt="Doctor Appointment Demo" /></a>
+<a href="https://github.com/omar-rehann/Doctor-Appointment-System"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Doctor Appointment Source Code" /></a>
 
 ---
 
-# Database
+### 🍔 Restaurant Ordering & Management Platform
 
-MongoDB is used as the main database.
+Restaurant platform with customer-facing ordering and admin management.
 
-Mongoose is used to define schemas and communicate with MongoDB.
+- Browse food categories and menu items
+- Manage carts and place orders
+- Admin dashboard for categories, menu items, and restaurant data
+- Responsive interfaces and backend API integration
 
-Main entities include:
+<img src="https://skillicons.dev/icons?i=react,nodejs,express,mongodb,tailwind" alt="Restaurant stack" /> + REST APIs, Supabase Storage
 
-```text
-Users
-Doctors
-Services
-Specialties
-Appointments
-```
+<a href="https://github.com/omar-rehann/food-delivery-restaurant"><img src="https://img.shields.io/badge/Source_Code-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Restaurant Source Code" /></a>
 
 ---
 
-# Image Management
+## 💼 Experience
 
-Doctor profile images are uploaded and managed using ImageKit.
+| Role | Company | Period |
+| --- | --- | --- |
+| Freelance Front-End Developer | **Beti** | Jan 2026 – Present |
+| Front-End Development Intern | **HEX Software** | Jun 2026 – Aug 2026 |
+| Front-End Instructor | **Techno Square** | Apr 2026 – Jul 2026 |
+| Freelance Front-End Developer | **Zero Tech** | Apr 2026 |
+| Front-End Development Intern | **Codveda Technology** | Nov 2025 – Dec 2025 |
 
-The image flow is:
+<details>
+<summary><b>See details</b></summary>
 
-```text
-Frontend
-   ↓
-Image Upload
-   ↓
-Backend
-   ↓
-ImageKit
-   ↓
-Image URL
-   ↓
-MongoDB
-```
+**Freelance Front-End Developer — Beti**
+- Contributed to a Saudi real-estate platform built with React.js.
+- Fixed 15+ post-launch issues involving image loading, missing developer data, and broken footer social links.
 
----
+**Front-End Development Intern — HEX Software**
+- Participated in remote frontend development tasks.
+- Practiced responsive interface development and reusable components.
 
-# Project Structure
+**Front-End Instructor — Techno Square**
+- Taught React.js and Next.js through hands-on training and projects.
+- Covered component-based architecture, state management, and API integration.
+- Mentored 100+ students with code reviews and debugging guidance.
 
-```text
-Doctor-Appointment/
-│
-├── Backend/
-│   ├── controller/
-│   ├── model/
-│   ├── routes/
-│   ├── middleware/
-│   ├── uploads/
-│   ├── server.js
-│   ├── package.json
-│   └── .env
-│
-├── Admin/
-│   ├── app/
-│   ├── components/
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-├── Doctor/
-│   ├── app/
-│   ├── components/
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-├── User/
-│   ├── app/
-│   ├── components/
-│   ├── public/
-│   ├── package.json
-│   └── README.md
-│
-└── README.md
-```
+**Freelance Front-End Developer — Zero Tech**
+- Built a responsive security systems e-commerce website using Next.js and React.js.
+- Implemented product filtering, cart, Clerk authentication, and RTL support.
+- Gathered requirements and delivered the first project phase.
+
+**Front-End Development Intern — Codveda Technology**
+- Developed frontend projects using HTML, CSS, and JavaScript.
+- Practiced responsive design and interactive UI development.
+
+</details>
 
 ---
 
-# Installation
+## 🎓 Education & Certificates
 
-## Clone the Repository
+**B.Sc. in Computer Science** — Port Said University, Egypt (2021–2025)
+Graduation Grade: B+ • Graduation Project: Online Examination System
 
-```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
-cd Doctor-Appointment
-```
+<details>
+<summary><b>Certificates & Training</b></summary>
 
----
+- **ITI:** Front-End Development Training — 120 hours, 2024
+- **ITIDA:** LinkedIn & Job Ready Training — 2025
+- **ITIDA:** Freelancing Training — 2025
+- **freeCodeCamp:** Responsive Web Design
+- **freeCodeCamp:** JavaScript Algorithms and Data Structures
+- **Coursera:** Introduction to Front-End Development
+- **CS50:** Fundamentals of Web Development
+- C++ Programming, OOP, Data Structures & Algorithms, SDLC, and Clean Code Principles
+- **Mahara Tech:** HTML, CSS, JavaScript, and React fundamentals
 
-# Backend Setup
-
-```bash
-cd Backend
-npm install
-```
-
-Create a `.env` file:
-
-```env
-PORT=4000
-MONGODB_URI=your_mongodb_connection_string
-JWT_SECRET=your_jwt_secret
-IMAGEKIT_PUBLIC_KEY=your_imagekit_public_key
-IMAGEKIT_PRIVATE_KEY=your_imagekit_private_key
-IMAGEKIT_URL_ENDPOINT=your_imagekit_url
-```
-
-Start the backend:
-
-```bash
-npm run server
-```
+</details>
 
 ---
 
-# Admin Setup
+## 🧩 Problem Solving
 
-```bash
-cd Admin
-npm install
-npm run dev
-```
+Practicing challenges to improve algorithmic thinking and code quality. Focus: Arrays, Strings, Recursion, Sorting, Searching, and DSA.
 
----
-
-# Doctor Setup
-
-```bash
-cd Doctor
-npm install
-npm run dev
-```
+<p>
+  <a href="https://github.com/omar-rehann/Problem_Solving"><img src="https://img.shields.io/badge/Problem_Solving-View_Repository-181717?style=for-the-badge&logo=github&logoColor=white" alt="Problem Solving Repository" /></a>
+  <a href="https://leetcode.com/"><img src="https://img.shields.io/badge/LeetCode-Practice-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" alt="LeetCode" /></a>
+  <a href="https://www.codewars.com/"><img src="https://img.shields.io/badge/Codewars-Practice-B1361E?style=for-the-badge&logo=codewars&logoColor=white" alt="Codewars" /></a>
+</p>
 
 ---
 
-# User Setup
+## 📊 GitHub Statistics
 
-```bash
-cd User
-npm install
-npm run dev
-```
+<p align="center">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=omar-rehann&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="Omar's GitHub Stats" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=omar-rehann&layout=compact&theme=tokyonight&hide_border=true" alt="Most Used Languages" />
+</p>
 
----
-
-# Environment Variables
-
-Never upload your `.env` file to GitHub.
-
-Add it to `.gitignore`:
-
-```text
-.env
-node_modules
-.next
-```
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=omar-rehann&theme=tokyonight&hide_border=true" alt="GitHub Contribution Streak" />
+</p>
 
 ---
 
-# API Communication
+## 🌍 Languages
 
-The frontend applications communicate with the backend through REST APIs.
-
-Example:
-
-```text
-Frontend
-   ↓
-HTTP Request
-   ↓
-Express Route
-   ↓
-Controller
-   ↓
-Mongoose
-   ↓
-MongoDB
-   ↓
-Response
-   ↓
-Frontend
-```
+🇪🇬 Arabic — Native &nbsp;•&nbsp; 🇬🇧 English — B1
 
 ---
 
-# Error Handling
+## 🤝 Let's Connect
 
-The application handles common errors such as:
+<p align="center">
+  <a href="https://github.com/omar-rehann"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/omar-rehann"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://omar-rehann.github.io/Omar-Rehann/"><img src="https://img.shields.io/badge/Portfolio-0891B2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="mailto:omarrehan724@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+</p>
 
-* Invalid login credentials
-* Missing required fields
-* Invalid JWT token
-* Unauthorized requests
-* Invalid appointment data
-* Database errors
-* API errors
-* Image upload errors
-
-SweetAlert is used on the frontend to provide user-friendly notifications.
-
----
-
-# Responsive Design
-
-The interfaces are designed to work across:
-
-* Desktop
-* Laptop
-* Tablet
-* Mobile
-
-Technologies used for responsive UI include:
-
-* Tailwind CSS
-* React Bootstrap
-* Responsive layouts
-
----
-
-# Security
-
-The project uses:
-
-* JWT Authentication
-* Protected API routes
-* Password authentication
-* Role-based access
-* Environment variables for sensitive configuration
-
----
-
-# Future Improvements
-
-Possible future improvements include:
-
-* Online payment integration
-* Email notifications
-* Appointment reminders
-* Doctor availability scheduling
-* Advanced search and filtering
-* Patient medical records
-* Reviews and ratings
-* Admin analytics dashboard
-* Real-time notifications
-* Cloud deployment optimization
-
----
-
-# Author
-
-**Omar Rehan**
-
-Frontend / MERN Stack Developer
-
-GitHub: `https://github.com/omar-rehann`
-
-Portfolio: `https://omar-rehann.github.io/Omar-Rehan/`
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:0369A1,100:06B6D4&height=100&section=footer" width="100%" />
+</p>
